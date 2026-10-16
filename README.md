@@ -53,15 +53,23 @@ The health record stays put. These are the exceptions, and each one is something
 
 Vitalog does not show ads, and it does not sell health data. It does not upload lab contents through an analytics or crash service.
 
-## Desktop
+## Download 0.2.6
 
-The current public download is the desktop app: macOS, Windows, and Linux. The Android app is not on the Play Store yet.
+The current public download is the desktop app. The Android app is not on the Play Store yet.
 
-When a desktop version is posted, the installers are [releases of this repository](https://github.com/Raghavendra-Pratap/vitalog-pub/releases): a Mac disk image, a Windows setup program, and a Debian package. They are unsigned for now. macOS will say the developer cannot be verified. Windows SmartScreen will ask before the setup runs. Signing comes later.
+These installers are unsigned. macOS will say the developer cannot be verified. Windows SmartScreen will ask before the setup runs. Signing comes later.
+
+| Computer | Installer |
+|----------|-----------|
+| macOS | [Vitalog-0.2.6.dmg](https://github.com/Raghavendra-Pratap/vitalog-pub/releases/download/v0.2.6/Vitalog-0.2.6.dmg) |
+| Windows | [Vitalog-0.2.6-setup.exe](https://github.com/Raghavendra-Pratap/vitalog-pub/releases/download/v0.2.6/Vitalog-0.2.6-setup.exe) |
+| Debian and Ubuntu | [Vitalog-0.2.6.deb](https://github.com/Raghavendra-Pratap/vitalog-pub/releases/download/v0.2.6/Vitalog-0.2.6.deb) |
+
+All three are also on the [0.2.6 release](https://github.com/Raghavendra-Pratap/vitalog-pub/releases/tag/v0.2.6).
+
+On a Mac, open the disk image and move Vitalog into Applications. On Windows, run the setup program. On Debian or Ubuntu, install the package with your package manager.
 
 An installed desktop copy checks this repository for a newer release and opens the installer for that computer. The same version is not offered again. The check does not install silently, and it does not send lab results.
-
-No desktop release is attached here yet. The site does not host a download until one is posted on that releases page.
 
 ## This repository
 

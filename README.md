@@ -2,40 +2,23 @@
 
 Vitalog keeps a family’s lab results, visits, medicines, and reminders on the device. It compares a result with the range printed on that lab report. It does not diagnose a condition or recommend treatment.
 
+Website: [vitalog.cc](https://vitalog.cc/)  
 Privacy: [vitalog.cc/privacy](https://vitalog.cc/privacy)  
-Site: [vitalog.cc](https://vitalog.cc/)  
 Questions: [outreach@bsoc.space](mailto:outreach@bsoc.space)
 
-## What you can do
+## This repository
 
-- Keep a profile for each person and switch between them
-- Enter a lab panel with the range printed on the report
-- See later results against that range. A flag says high, low, or in range
-- Save visits, medicines, and reminders
-- Attach a report photo or PDF. You confirm every match before it is saved
-- Lock the app with a PIN. Biometrics are optional
-- Save an encrypted backup, wipe this device, and restore from that backup
-- Export a readable copy for your own files
+This is the public showcase. Vitalog is not open source.
 
-Health data is not uploaded to a Vitalog account. Optional catalogue and medicine-name updates download reference lists from vitalog.cc. They are not your results.
+| What you get | What you do not get |
+|--------------|---------------------|
+| [What Vitalog does](pub/README.md) | The application source |
+| [How it is put together](pub/ARCHITECTURE.md) | Internal design notes, schemas, or sample reports |
 
-## Desktop downloads
+The application source is a private repository.
 
-Version **0.2.6**. These builds are unsigned.
+## Desktop
 
-| System | File |
-|--------|------|
-| Mac | [Vitalog-0.2.6.dmg](https://github.com/Raghavendra-Pratap/vitalog-dev/releases/download/v0.2.6/Vitalog-0.2.6.dmg) |
-| Windows | [Vitalog-0.2.6-setup.exe](https://github.com/Raghavendra-Pratap/vitalog-dev/releases/download/v0.2.6/Vitalog-0.2.6-setup.exe) |
-| Debian / Ubuntu | [Vitalog-0.2.6.deb](https://github.com/Raghavendra-Pratap/vitalog-dev/releases/download/v0.2.6/Vitalog-0.2.6.deb) |
+Unsigned installers — a Mac disk image, a Windows setup program, and a Debian package — are published as [releases of this repository](https://github.com/Raghavendra-Pratap/vitalog-pub/releases) when a desktop version is posted here. macOS will say the developer cannot be verified. Windows SmartScreen will ask before the setup runs.
 
-macOS will say the developer cannot be verified. Windows SmartScreen will ask before the setup runs. Open the disk image and drag Vitalog to Applications. On Windows, run the setup. On Debian or Ubuntu, install the package.
-
-A later desktop build can check GitHub for a newer release and open the installer for that computer. The check sends the version request only.
-
-## What Vitalog does not do
-
-- It does not store your health record on a Vitalog server
-- It does not show ads, and it does not sell health data
-- It does not provide a diagnosis, a risk score, or treatment advice
-- Deleting Vitalog on this device does not delete a backup you saved somewhere else. Delete that file yourself
+An installed desktop copy checks this repository for a newer release and opens the installer for that computer. The check does not send lab results.

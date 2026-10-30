@@ -20,4 +20,4 @@ Settings can wipe the record on that device. An encrypted backup is a file you k
 
 ## Desktop delivery
 
-Each posted desktop version is three unsigned installers: a Mac disk image, a Windows setup program, and a Debian package. The installed app looks up the latest release here. If the published version is newer, it opens that system’s installer. Signing comes later. Until then, macOS and Windows ask before an unsigned installer runs.
+Each posted desktop version is three installers: a Mac disk image (notarized Developer ID from 0.2.8), a Windows setup program, and a Debian package. The installed app looks up the latest release here. If the published version is newer, it opens that system’s installer. Windows SmartScreen may still warn on the setup until Microsoft Store distribution is live.

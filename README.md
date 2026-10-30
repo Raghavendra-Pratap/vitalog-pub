@@ -53,19 +53,17 @@ The health record stays put. These are the exceptions, and each one is something
 
 Vitalog does not show ads, and it does not sell health data. It does not upload lab contents through an analytics or crash service.
 
-## Download 0.2.6
+## Download 0.2.8
 
-The current public download is the desktop app. The Android app is not on the Play Store yet.
-
-These installers are unsigned. macOS will say the developer cannot be verified. Windows SmartScreen will ask before the setup runs. Signing comes later.
+The current public download is the desktop app. Phone builds are in closed testing. Microsoft Store submission is in certification.
 
 | Computer | Installer |
 |----------|-----------|
-| macOS | [Vitalog-0.2.6.dmg](https://github.com/Raghavendra-Pratap/vitalog-pub/releases/download/v0.2.6/Vitalog-0.2.6.dmg) |
-| Windows | [Vitalog-0.2.6-setup.exe](https://github.com/Raghavendra-Pratap/vitalog-pub/releases/download/v0.2.6/Vitalog-0.2.6-setup.exe) |
-| Debian and Ubuntu | [Vitalog-0.2.6.deb](https://github.com/Raghavendra-Pratap/vitalog-pub/releases/download/v0.2.6/Vitalog-0.2.6.deb) |
+| macOS | [Vitalog-0.2.8.dmg](https://github.com/Raghavendra-Pratap/vitalog-pub/releases/download/v0.2.8/Vitalog-0.2.8.dmg) (notarized Developer ID) |
+| Windows | [Vitalog-0.2.8-setup.exe](https://github.com/Raghavendra-Pratap/vitalog-pub/releases/download/v0.2.8/Vitalog-0.2.8-setup.exe) (SmartScreen may warn until Store is live) |
+| Debian and Ubuntu | [Vitalog-0.2.8.deb](https://github.com/Raghavendra-Pratap/vitalog-pub/releases/download/v0.2.8/Vitalog-0.2.8.deb) |
 
-All three are also on the [0.2.6 release](https://github.com/Raghavendra-Pratap/vitalog-pub/releases/tag/v0.2.6).
+All three are also on the [0.2.8 release](https://github.com/Raghavendra-Pratap/vitalog-pub/releases/tag/v0.2.8). Same files are served from [vitalog.cc/download](https://vitalog.cc/).
 
 On a Mac, open the disk image and move Vitalog into Applications. On Windows, run the setup program. On Debian or Ubuntu, install the package with your package manager.
 
